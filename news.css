@@ -1,0 +1,3 @@
+body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item:last-child a {
+  padding: 0 1rem;
+}
