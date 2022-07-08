@@ -166,7 +166,14 @@ nav.header-nav-list .header-nav-item:nth-child(2):hover a {
   color: #fff;
 }
 
+.site-wrapper .header-menu .header-menu-nav .header-menu-nav-item--active a, .site-wrapper .header-menu .header-menu-nav .header-nav-item--active a,
+.site-wrapper .header-menu .header-menu-nav a:not(.btn) {
+  color: #035438;
+}
 
+.site-wrapper .header-menu .header-menu-nav a:not(.btn):hover {
+  color: #a142ff;
+}
 
 /* END MAIN MENU  */
 
