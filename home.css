@@ -1,0 +1,51 @@
+section.page-section:last-child .section-background  {
+  background-color: #a142ff !important;
+}
+
+section.page-section:last-child h2 {
+  color: #fff !important;
+  font-family: 'Chivo', sans-serif;
+  padding-left: 0 !important;
+}
+section.page-section:last-child .newsletter-form .newsletter-form-field-wrapper .newsletter-form-field-element {
+  font-family: 'Chivo', sans-serif;
+  padding: 0.8rem 2rem !important;
+}
+
+section.page-section:last-child .newsletter-form .newsletter-form-button-wrapper .newsletter-form-button.sqs-button-element--primary {
+  font-family: 'Chivo', sans-serif !important;
+  padding: 0.8rem 2rem !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  border-radius: 0.6rem;
+  border: 2px solid #fff !important;
+
+}
+
+section.page-section:last-child .newsletter-form .newsletter-form-button-wrapper .newsletter-form-button:hover {
+  background-color: #035438 !important;
+  border: 2px solid #035438 !important;
+
+}
+
+section.page-section:last-child .newsletter-form .newsletter-form-button span.newsletter-form-button-label {
+  color: #fff !important;
+}
+
+footer section.page-section:last-child {
+  color: #035438 !important;
+}
+footer section.page-section:last-child .section-background {
+  background-color: transparent !important;
+}
+
+/* newsletter on home page desktop  */
+@media (min-width: 769px) {
+  section.page-section:last-child .newsletter-block header h2 {
+    padding-left: 0 !important;
+  }
+  section.page-section:last-child > .section-background {
+    background: url('/s/SK_ABS_EMBLEM-02-white.svg') no-repeat;
+    background-size: contain;
+    background-position: 100% 45%
+  }  

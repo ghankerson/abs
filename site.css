@@ -1,0 +1,178 @@
+/* BEGIN FONTS */
+@import url('https://fonts.googleapis.com/css?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+body {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 900;
+}
+.image-title.sqs-dynamic-text {
+}
+h2, h3, h4 {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none !important;
+}
+a:hover {
+  text-decoration: underline !important;
+}
+
+caption {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 300;
+}
+p {
+  font-family: 'Chivo', sans-serif;
+  font-weight: 400;
+}
+
+
+/* END FONTS */
+
+/* BEGIN BACKGROUND IMAGE BARS */
+
+h2 {
+  display: block !important;
+  background-size: 130px !important;
+  background: url('/s/SK_ABS_EMBLEM-05-purple.svg') no-repeat;
+  background-position: -7px 0;
+  padding: 3.2rem 0 0 0 !important;
+  text-align: left !important;
+}
+
+h3 {
+  display: block !important;
+  background-size: 110px !important;
+  background: url('/s/SK_ABS_EMBLEM-05-purple.svg') no-repeat;
+  background-position: -10px 0;
+  padding: 3rem 0 0 0;
+}
+
+@media (min-width: 481px) {
+  h2 {
+    padding: 0 0 0 5.8rem !important;
+    background: url('/s/SK_ABS_EMBLEM-05-purple.svg') no-repeat;
+    background-size: 92px !important;
+    background-position: 2px 7px;
+    text-align: left !important;
+  }
+    h3 {
+   padding: 1rem 0 0 4.5rem;
+    background: url('/s/SK_ABS_EMBLEM-05-purple.svg') no-repeat;
+    background-size: 72px !important;
+    background-position: 0 18px;
+
+  }
+}
+
+/* END BACKGROUND IMAGE BARS */
+
+/* BEGIN MAIN MENU  */
+
+
+.header-title-logo img {
+	max-height: 60px;
+}
+
+@media screen and (min-width: 767px) {
+	.header-title-logo img {
+		max-height: 80px;
+	}
+}
+
+body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item.header-nav-item--collection a
+ {
+   padding: 0.1rem 0.9vw;
+}
+
+
+body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item:last-child a
+ {
+   	color: #fff;
+	background-color: #035438;
+    border-radius: 1rem;
+}
+
+body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item:last-child a:hover
+ {
+	background-color: #a142ff;
+}
+
+.header-nav-folder-content {
+  background: #035438 !important;
+  left: 0 !important;
+  border-top-right-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+nav.header-nav-list .header-nav-item:nth-child(2) > a {
+  margin-left: -13px
+}
+nav.header-nav-list .header-nav-item {
+  padding-top: 0.5rem;
+}
+nav.header-nav-list .header-nav-item  a {
+  font-size: 1.1rem;
+}
+ 
+nav.header-nav-list .header-nav-item:nth-child(2) {
+  display: inline-block;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  padding: 0.5rem 1rem 0 2rem;
+  background: url('/s/down-chevron-svgrepo-com.svg') no-repeat;
+  background-position: 85% 75%;
+  background-size: 15%;
+}
+
+nav.header-nav-list .header-nav-item:nth-child(2):hover {
+  background: #035438 url('/s/up-chevron-svgrepo-com.svg') no-repeat;
+  background-position: 85% 70%;
+  background-size: 15%;
+}
+nav.header-nav-list .header-nav-item:nth-child(2):hover a {
+  color: #fff;
+}
+
+
+.header-nav-folder-content .header-nav-folder-item a {
+  color: #fff !important;
+  
+}
+
+.header .header-nav-wrapper a:hover {
+  text-decoration: none !important;
+  color: #a142ff !important;
+}
+.header .header-nav-wrapper .header-nav-item:nth-child(2) a:hover,
+.header .header-nav-wrapper .header-nav-item:last-child a:hover  {
+  color: #fff !important;
+}
+
+.header .header-nav-wrapper a:hover {
+  color: #fff;
+}
+
+
+
+/* END MAIN MENU  */
+
+
+/* BEGIN MISC */
+.sqs-block-image .design-layout-stack .image-card-wrapper .image-subtitle-wrapper div.image-subtitle.sqs-dynamic-text {
+  margin-top: 2%;
+}
+/* END MISC */
