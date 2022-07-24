@@ -1,6 +1,11 @@
 /* BEGIN FONTS */
 @import url('https://fonts.googleapis.com/css?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
 
+/* See https://matthewjamestaylor.com/responsive-font-size */
+html {
+   font-size: calc(15px + 0.390625vw) !important; 
+}
+
 body {
   font-family: 'Chivo', sans-serif;
   font-weight: 400;
@@ -9,9 +14,17 @@ body {
 h1 {
   font-family: 'Chivo', sans-serif;
   font-weight: 900;
+  font-size: 2rem !important;
 }
-.image-title.sqs-dynamic-text {
+
+h2 {
+  font-size: 1.6rem !important;
 }
+
+h3 {
+  font-size: 1.2em !important;
+}
+
 h2, h3, h4 {
   font-family: 'Chivo', sans-serif;
   font-weight: 700;
@@ -25,6 +38,7 @@ p {
 a {
   text-decoration: none !important;
 }
+
 a:hover {
   text-decoration: underline !important;
 }
@@ -33,6 +47,7 @@ caption {
   font-family: 'Chivo', sans-serif;
   font-weight: 300;
 }
+
 p {
   font-family: 'Chivo', sans-serif;
   font-weight: 400;
@@ -41,43 +56,6 @@ p {
 
 /* END FONTS */
 
-/* BEGIN BACKGROUND IMAGE BARS */
-
-h2 {
-  display: block !important;
-  background-size: 130px !important;
-  background: url('/s/SK_ABS_EMBLEM-05-purple.svg') no-repeat;
-  background-position: -7px 0;
-  padding: 3.2rem 0 0 0 !important;
-  text-align: left !important;
-}
-
-h3 {
-  display: block !important;
-  background-size: 110px !important;
-  background: url('/s/SK_ABS_EMBLEM-05-purple.svg') no-repeat;
-  background-position: -10px 0;
-  padding: 3rem 0 0 0;
-}
-
-@media (min-width: 481px) {
-  h2 {
-    padding: 0 0 0 5.8rem !important;
-    background: url('/s/SK_ABS_EMBLEM-05-purple.svg') no-repeat;
-    background-size: 92px !important;
-    background-position: 2px 7px;
-    text-align: left !important;
-  }
-    h3 {
-   padding: 1rem 0 0 4.5rem;
-    background: url('/s/SK_ABS_EMBLEM-05-purple.svg') no-repeat;
-    background-size: 72px !important;
-    background-position: 0 18px;
-
-  }
-}
-
-/* END BACKGROUND IMAGE BARS */
 
 /* BEGIN MAIN MENU  */
 
@@ -132,19 +110,24 @@ nav.header-nav-list .header-nav-item:nth-child(2) {
   display: inline-block;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem;
-  padding: 0.5rem 1rem 0 2rem;
+  padding: 0.5rem 1rem 0 2.5rem;
   background: url('/s/down-chevron-svgrepo-com.svg') no-repeat;
-  background-position: 85% 75%;
+  background-position: 8% 56%;
   background-size: 15%;
 }
 
 nav.header-nav-list .header-nav-item:nth-child(2):hover {
   background: #035438 url('/s/up-chevron-svgrepo-com.svg') no-repeat;
-  background-position: 85% 70%;
+  background-position: 8% 56%;
   background-size: 15%;
 }
 nav.header-nav-list .header-nav-item:nth-child(2):hover a {
   color: #fff;
+}
+nav.header-nav-list .header-nav-item:nth-child(2) a:hover span.header-nav-folder-item-content {
+  background-color: #a142ff;
+  display: inline-block;
+  padding-left: 0.1rem;
 }
 
 
