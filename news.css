@@ -1,3 +1,9 @@
-body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item:last-child a {
-  padding: 0 1rem;
+body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item:last-child a,
+div.header-nav-item:nth-child(3) > a:nth-child(1) {
+  padding: 0 1rem !important; 
+}
+
+nav.header-nav-list {
+  width: 100%;
+  justify-content: center;
 }
