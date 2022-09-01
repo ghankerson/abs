@@ -2,7 +2,7 @@
   var imglink = document.querySelector('.header-display-desktop .header-title-logo a');
   var mobileImglink = document.querySelector('.header-display-mobile .header-title-logo a')
   var lnks = [imglink, mobileImglink];
-  var imgSrc = "//images.squarespace-cdn.com/content/v1/626d3a53496e6707a6e79662/0a2aa120-e023-4725-b7c7-866d97462f96/news-logo-purple.png"
+  var imgSrc = "//images.squarespace-cdn.com/content/v1/626d3a53496e6707a6e79662/ea048e55-2d72-4ccb-8a6b-1cac2f530883/abs-news-service-logo.png"
   lnks.forEach(lnk => {
     lnk.setAttribute("href", "/news");
     lnk.children[0].setAttribute("src", imgSrc);

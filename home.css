@@ -36,7 +36,8 @@ footer section.page-section:last-child {
   color: #035438 !important;
 }
 footer section.page-section:last-child .section-background {
-  background-color: transparent !important;
+  background-color: #035438 !important;
+  background-image: none;
 }
 
 /* newsletter on home page desktop  */

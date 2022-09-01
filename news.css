@@ -1,9 +1,41 @@
 body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item:last-child a,
 div.header-nav-item:nth-child(3) > a:nth-child(1) {
-  padding: 0 1rem !important; 
-}
+  padding: 0 1rem !important; }
 
 nav.header-nav-list {
   width: 100%;
   justify-content: center;
+}
+
+#header {
+  background-color: #a142ff;
+}
+
+body:not(.header--menu-open) .header-nav-wrapper a {
+  color: #fff !important;
+}
+
+.header .header-nav-wrapper a:hover {
+  color: #d3ff4b !important;
+}
+
+nav.header-nav-list .header-nav-item:nth-child(2):hover {
+  background: transparent !important;
+  color: #fff !important;
+}
+
+nav.header-nav-list .header-nav-item:nth-child(2):hover a {
+  color: #d3ff4b !important;
+}
+
+body:not(.header--menu-open) .white .header-actions .icon--fill svg {
+	fill: #ffffff;
+}
+
+body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item:last-child a:hover {
+	background-color: #fa3c28;
+}
+
+body:not(.header--menu-open) .header-actions .icon--fill svg {
+    fill: #fff !important;
 }
