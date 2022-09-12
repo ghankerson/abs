@@ -39,3 +39,7 @@ body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item:last-ch
 body:not(.header--menu-open) .header-actions .icon--fill svg {
     fill: #fff !important;
 }
+
+footer .section-background {
+	background-color: #a442ff !important;
+}
