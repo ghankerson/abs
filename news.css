@@ -19,6 +19,10 @@ body:not(.header--menu-open) .header-nav-wrapper a {
   color: #d3ff4b !important;
 }
 
+nav.header-nav-list .header-nav-item:nth-child(2) {
+  background: none !important;
+}
+
 nav.header-nav-list .header-nav-item:nth-child(2):hover {
   background: transparent !important;
   color: #fff !important;
