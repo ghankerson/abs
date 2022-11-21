@@ -15,7 +15,7 @@ section.page-section:last-child .newsletter-form .newsletter-form-field-wrapper 
 section.page-section:last-child .newsletter-form .newsletter-form-button-wrapper .newsletter-form-button.sqs-button-element--primary {
   font-family: 'Chivo', sans-serif !important;
   padding: 0.8rem 2rem !important;
-  color: #fff !important;
+  background-color: #fff !important;
   font-weight: 700 !important;
   border-radius: 0.6rem;
   border: 2px solid #fff !important;
@@ -23,13 +23,13 @@ section.page-section:last-child .newsletter-form .newsletter-form-button-wrapper
 }
 
 section.page-section:last-child .newsletter-form .newsletter-form-button-wrapper .newsletter-form-button:hover {
-  background-color: #035438 !important;
+  background-color: ##035438 !important;
   border: 2px solid #035438 !important;
 
 }
 
 section.page-section:last-child .newsletter-form .newsletter-form-button span.newsletter-form-button-label {
-  color: #fff !important;
+  color: #a142ff !important;
 }
 
 footer section.page-section:last-child {
@@ -38,6 +38,10 @@ footer section.page-section:last-child {
 footer section.page-section:last-child .section-background {
   background-color: #035438 !important;
   background-image: none;
+}
+
+.sqs-button-element--primary:hover { 
+  background-color: #a142ff !important;
 }
 
 /* newsletter on home page desktop  */

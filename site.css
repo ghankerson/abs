@@ -79,7 +79,7 @@ body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item.header-
 body:not(.header--menu-open) .white .header-nav-wrapper .header-nav-item:last-child a
  {
    	color: #fff;
-	background-color: #035438;
+    background-color: #035438;
     border-radius: 1rem;
 }
 
@@ -180,6 +180,10 @@ input.button.sqs-system-button.sqs-editable-button.sqs-button-element--primary:h
 /* BEGIN MISC */
 .sqs-block-image .design-layout-stack .image-card-wrapper .image-subtitle-wrapper div.image-subtitle.sqs-dynamic-text {
   margin-top: 2%;
+}
+
+.sqs-button-element--primary:hover { 
+  background-color: #a142ff;
 }
 /* END MISC */
 
